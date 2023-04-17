@@ -16,7 +16,7 @@ export default function App() {
           <button className="butt">LinkedIn</button>
         </a>
       </div>
-      <h3 className="contact">contact: VoskiLLC@gmail.com</h3>
+      <h3 className="contact">contact: </h3>
     </div>
   );
 }
