@@ -25,7 +25,7 @@ code {
   border: 4px double aqua;
   background-color: black;
   color: violet;
-  font-family: 'Rubik Moonrocks', cursive;
+  /* font-family: 'Rubik Moonrocks', cursive; */
   font-size: 1.29em;
 }
 
@@ -41,7 +41,7 @@ img {
 .aboutMe {
   text-align: center;
   color: violet;
-  font-family: 'Rubik Moonrocks', cursive;
+  /* font-family: 'Rubik Moonrocks', cursive; */
   border: 4px double aqua;
 }
 
@@ -59,7 +59,7 @@ img {
   border: 4px double aqua;
   background-color: black;
   color: violet;
-  font-family: 'Rubik Moonrocks', cursive;
+  /* font-family: 'Rubik Moonrocks', cursive; */
   font-size: 1.29em;
   height: 80px;
   width: 140px;
@@ -85,7 +85,7 @@ img {
 .projects {
   padding: 8px;
   color: violet;
-  font-family: 'Rubik Moonrocks', cursive;
+  /* font-family: 'Rubik Moonrocks', cursive; */
   border: 4px double aqua;
   
 }
@@ -94,6 +94,6 @@ img {
   margin-top: -5px;
   text-align: center;
   color: violet;
-  font-family: 'Rubik Moonrocks', cursive;
+  /* font-family: 'Rubik Moonrocks', cursive; */
   border: 4px double aqua;
 }

@@ -16,7 +16,7 @@ export default function App() {
           <button className="butt">LinkedIn</button>
         </a>
       </div>
-      <h3 className="contact">contact: </h3>
+      <h3 className="contact">In the process of updating! Check again soon!</h3>
     </div>
   );
 }
