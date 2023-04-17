@@ -23,7 +23,7 @@ code {
   flex-direction: row;
   justify-content: center;
   border: 4px double aqua;
-  background-color: black;
+  background-color: #101212;
   color: violet;
   /* font-family: 'Rubik Moonrocks', cursive; */
   font-size: 1.29em;
