@@ -3,15 +3,25 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import ProjectCard from "./components/ProjectCard";
 import Login from "./components/Login";
+import vid from "./images/pokeapi.mp4"
 
 export default function App() {
+
+  const projects = [
+    {
+      name: 'PokéPlanet', ghub: 'https://github.com/Voskii/poke', url: 'https://pokiplanet.netlify.app/', img: vid, orientation: 'l'
+    },
+    // {
+    //   name: 'StudyBuddy', ghub: 'https://github.com/Voskii/lvl5cap', url: 'https://pokiplanet.netlify.app/', img: vid, orientation: 'r'
+    // }
+  ]
 
   return (
     <div className="container">
       <Header />
-      <ProjectCard />
       <AboutMe />
-      {/* <Login /> */}
+      {/* <ProjectCard /> */}
+      {projects.map(proj => <><ProjectCard data={proj} key={proj.name}/></>)}
       <div className="moveButt">
         <a href="https://www.linkedin.com/in/swingshutt/" target="_blank" rel="noreferrer">
           <button className="butt">LinkedIn</button>
