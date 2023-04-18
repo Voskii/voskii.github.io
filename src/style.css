@@ -5,7 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+}
+
+a{
+  align-self: center;
 }
 
 code {
@@ -29,7 +33,7 @@ code {
   font-size: 1.29em;
 }
 
-img {
+.header-img {
   border: 8px dashed violet;
   border-radius: 30%;
 }
@@ -82,12 +86,48 @@ img {
   justify-content: space-evenly;
 }
 
+.project-whole{
+  display: flex;
+  align-items: center;
+}
+
 .projects {
+  text-align: center;
   padding: 8px;
   color: violet;
-  /* font-family: 'Rubik Moonrocks', cursive; */
   border: 4px double aqua;
-  
+}
+
+.proj-links{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  color: violet;
+}
+
+.ghub-link{
+  height: 70%;
+  width: 70%;
+}
+
+.url-link{
+  height: 70%;
+  width: 70%;
+}
+
+
+
+.video-container video {
+  height: 500px;
+  object-fit: cover;
+  border: 4px double aqua;
+  border-radius: 25%;
+  width: 500px;
+  z-index: 0;
 }
 
 .contact {
