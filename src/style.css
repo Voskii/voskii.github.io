@@ -18,24 +18,31 @@ a{
   font-family: 'Poppins' , 'Great Vibes', 'Patrick Hand SC';
 }
 
+.header{
+  display: flex;
+  justify-content: center;
+}
+
 .header-aboutme-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('./images/mee.png');
+  background-image: url('./images/meee.png');
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
   padding: 50px;
-  filter: drop-shadow(0 0 3rem black)
+  filter: drop-shadow(0 0 3rem black);
+  filter: opacity();
 }
+
 
 .headText {
   padding-top: 50px;
   font-family: 'Great Vibes';
   font-weight: 100;
-  color: #ffffffd5;
+  color: #ffffff;
   transform: scale(2);
 }
 
@@ -44,7 +51,7 @@ a{
   padding: 50px 50px;
   font-weight: 100;
   font-size: 1.6em;
-  color: #fffffff3;
+  color: #ffffff;
   margin-bottom: 50px;
 }
 

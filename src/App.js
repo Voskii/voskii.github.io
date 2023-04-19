@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <div className="">
+      <div className="header">
         <AboutMe />
       </div>
         {projects.map(proj => <><ProjectCard data={proj} key={proj.name}/></>)}
