@@ -61,7 +61,7 @@ a{
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 30%;
-  border: 4px double aqua;
+  /* border: 4px double aqua; */
   background-color: black;
   font-size: 1.29em;
   height: 80px;
@@ -119,14 +119,16 @@ a{
 
 
 
-.video-container video {
+/* .video-container video {
   height: 500px;
   object-fit: cover;
-  border: 4px double aqua;
-  border-radius: 25%;
+  background-color: var(--dg) !important;
+  box-shadow: 1px 1px 1px var(--p) inset;
+  border-radius: 30%;
+  border: solid 2px;
   width: 500px;
   z-index: 0;
-}
+} */
 
 .contact {
   margin-top: -5px;

@@ -67,11 +67,8 @@ button {
     background-color: var(--dg) !important;
     box-shadow: 1px 1px 1px var(--p) inset;
     font-size: 1.5em;
-    /* font-family: 'Aldrich', sans-serif; */
     font-weight: bold;
-    color: var(--lg);
     outline: none;
-/*   text-shadow: 2px 2px 1px var(--p); */
 }
 
 input:hover,
@@ -100,4 +97,18 @@ button {
     border-color: var(--dg);
     height: 100px;
     box-shadow: 2px 2px 1px var(--p);
+}
+
+.video-container video{
+    height: 500px;
+    object-fit: cover;
+    color: var(--lg);
+    background-color: var(--dg) !important;
+    transition: color 1s;
+    animation: colorshift 5s infinite;
+    animation-direction: alternate;
+    border-radius: 15%;
+    box-shadow: 2px 2px 2px var(--p);
+    width: 500px;
+    z-index: 0;
 }
