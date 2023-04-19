@@ -33,8 +33,7 @@ a{
   background-repeat: no-repeat;
   background-position: top;
   padding: 50px;
-  filter: drop-shadow(0 0 3rem black);
-  filter: opacity();
+  filter: drop-shadow(0 0 3rem black) opacity(.8);
 }
 
 
