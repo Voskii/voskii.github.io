@@ -25,7 +25,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: var(--dg);
-    font-family: 'Aldrich', sans-serif;
+    /* font-family: 'Aldrich', sans-serif; */
     color: var(--lg);
     transition: color 1s;
     animation: colorshift 5s infinite;
@@ -67,7 +67,7 @@ button {
     background-color: var(--dg) !important;
     box-shadow: 1px 1px 1px var(--p) inset;
     font-size: 1.5em;
-    font-family: 'Aldrich', sans-serif;
+    /* font-family: 'Aldrich', sans-serif; */
     font-weight: bold;
     color: var(--lg);
     outline: none;
