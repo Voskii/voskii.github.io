@@ -1,10 +1,10 @@
 import React from "react";
-import img from '../images/me.png';
 
-export default function header(){
+export default function Header(){
     return (
-        <div className="headerContainer">
+        <div className="header-aboutme-container">
             <h1 className="headText">Kyle Shutt</h1>
+            <h1 className="aboutText">Full Stack Web Developer // Father // Veteran</h1>
         </div>
     )
 }

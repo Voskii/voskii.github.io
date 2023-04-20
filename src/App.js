@@ -3,7 +3,15 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import ProjectCard from "./components/ProjectCard";
 import Login from "./components/Login";
-import vid from "./images/pokeapi.mp4"
+import vid from "./images/pokeapi.mp4";
+import Github from "./images/ghub3.svg";
+import html from './images/html.svg';
+import Fcss from './images/fcss.svg';
+import Js from './images/js.svg';
+import Mongo from "./images/mongo.png";
+import ImgReact from './images/imgreact.svg'
+import Node from './images/node.png'
+
 
 export default function App() {
 
@@ -19,8 +27,17 @@ export default function App() {
   return (
     <div className="container">
       <div className="header">
-        <AboutMe />
+        <Header />
       </div>
+      <div className="res-panel">
+        <img src={ImgReact} className="res-panel-img"/>
+        <img src={html} className="res-panel-img"/>
+        <img src={Fcss} className="res-panel-img"/>
+        <img src={Js} className="res-panel-img"/>
+        <img src={Mongo} className="res-panel-img"/>
+        <img src={Node} className="res-panel-img"/>
+      </div>
+      <AboutMe />
         {projects.map(proj => <><ProjectCard data={proj} key={proj.name}/></>)}
       <div className="moveButt">
         <a href="https://www.linkedin.com/in/swingshutt/" target="_blank" rel="noreferrer">
