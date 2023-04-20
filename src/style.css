@@ -113,6 +113,18 @@ a{
   width: 70%;
 }
 
+.res-panel{
+  display: flex;
+  justify-content: center;
+}
+
+.res-panel-img{
+  height: 10%;
+  width: 10%;
+  padding: 20px;
+  padding-top: 40px;
+}
+
 .url-link{
   height: 70%;
   width: 70%;
