@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer(){
     return (
         <div className="footer">
-            I am GROOT!
+            In the process of updating! Check again soon!
         </div>
     )
 }
