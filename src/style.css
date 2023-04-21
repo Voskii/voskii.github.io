@@ -36,12 +36,15 @@ a{
   background-position: top;
   padding: 50px;
   filter: drop-shadow(0 0 3rem black) opacity(.8);
+  /* border: solid aqua 2px;
+  border-collapse: separate;
+  box-shadow: 5px 10px; */
 }
 
 
 .headText {
   padding-top: 50px;
-  font-family: 'Autumn Flowers';
+  font-family: 'Great Vibes', 'Autumn Flowers', 'Poppins';
   font-weight: 100;
   color: #ffffff;
   transform: scale(2);
@@ -50,7 +53,8 @@ a{
 
 .aboutText {
   text-align: center;
-  padding: 50px 50px;
+  padding: 50px;
+  padding-bottom: 0px;
   font-weight: 100;
   font-size: 1.6em;
   color: #ffffff;
@@ -85,11 +89,28 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 50px;
+  padding-bottom: 30px;
+  /* border-top: 5px dashed;
+  border-width: 100%;
+  border-color: linear-gradient(to right, red, purple); */
+  /* border-top: 1px solid aqua ;; */
 }
+
+/* .projBorder{
+  border-image: linear-gradient(98deg, blue, #ff000000) 1;
+  border-width: 6px;
+  border-style: solid;
+  width: 15%;
+  text-align: center; } */
 
 .project-whole{
   display: flex;
+  align-items: center;
+}
+
+.project-whole-mq{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -106,7 +127,15 @@ a{
   justify-content: center;
   text-align: center;
   padding: 8px;
-  
+}
+
+.proj-links-mq{
+  display: flex;
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
 }
 
 .ghub-link{

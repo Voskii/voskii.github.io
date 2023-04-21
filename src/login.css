@@ -112,3 +112,7 @@ button {
     width: 500px;
     z-index: 0;
 }
+
+.shrink{
+    transform: scale(.8);
+}

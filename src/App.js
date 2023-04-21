@@ -3,7 +3,8 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import ProjectCard from "./components/ProjectCard";
 import Login from "./components/Login";
-import vid from "./images/pokeapi.mp4";
+import PokeVid from "./images/pokeapi.mp4";
+import StudyVid from "./images/studdybuddy.mp4";
 import Github from "./images/ghub3.svg";
 import html from './images/html.svg';
 import Fcss from './images/fcss.svg';
@@ -18,11 +19,11 @@ export default function App() {
 
   const projects = [
     {
-      name: 'PokéPlanet', ghub: 'https://github.com/Voskii/poke', url: 'https://pokiplanet.netlify.app/', img: vid, orientation: 'l'
+      name: 'PokéPlanet', ghub: 'https://github.com/Voskii/poke', url: 'https://pokiplanet.netlify.app/', img: PokeVid, orientation: 'l'
     },
-    // {
-    //   name: 'StudyBuddy', ghub: 'https://github.com/Voskii/lvl5cap', url: 'https://pokiplanet.netlify.app/', img: vid, orientation: 'r'
-    // }
+    {
+      name: 'StudyBuddy', ghub: 'https://github.com/Voskii/lvl5cap', url: '', img: StudyVid, orientation: 'r'
+    }
   ]
 
   return (
@@ -39,7 +40,7 @@ export default function App() {
         <img src={Node} className="res-panel-img"/>
       </div>
       <AboutMe />
-        {projects.map(proj => <><ProjectCard data={proj} key={proj.name}/></>)}
+        {projects.map(proj => <><ProjectCard data={proj} key={proj.name} /></>)}
       <Footer />
     </div>
   );
