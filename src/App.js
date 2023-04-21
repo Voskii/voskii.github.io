@@ -11,6 +11,7 @@ import Js from './images/js.svg';
 import Mongo from "./images/mongo.png";
 import ImgReact from './images/imgreact.svg'
 import Node from './images/node.png'
+import Footer from './components/Footer'
 
 
 export default function App() {
@@ -44,7 +45,7 @@ export default function App() {
           <button className="butt">LinkedIn</button>
         </a>
       </div>
-      <h3 className="contact">In the process of updating! Check again soon!</h3>
+      <Footer />
     </div>
   );
 }
