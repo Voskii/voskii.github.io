@@ -16,8 +16,13 @@ export default function Footer(){
             {/* <h4>In the process of updating! Check again soon!</h4> */}
             <div className="footer-email">
                 <div className="foot-text">Contact me at VoskiLLC@gmail.com</div>
-                <img src={LI} className="res-panel-img"/>
-                <img src={Github} className="res-panel-img"/>
+                    <a href="https://www.linkedin.com/in/swingshutt/" target="_blank" rel="noreferrer">
+                        <img src={LI} className="foot-img" />
+                    </a>
+                    <a href="https://github.com/Voskii/VschoolAssignments" target="_blank" rel="noreferrer">
+                        <img src={Github} className="foot-img" />
+                    </a>
+                
                 <div className="foot-text">Copyright © 2023. All Rights Reserved</div>
             </div>
         </div>
