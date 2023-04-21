@@ -40,11 +40,6 @@ export default function App() {
       </div>
       <AboutMe />
         {projects.map(proj => <><ProjectCard data={proj} key={proj.name}/></>)}
-      <div className="moveButt">
-        <a href="https://www.linkedin.com/in/swingshutt/" target="_blank" rel="noreferrer">
-          <button className="butt">LinkedIn</button>
-        </a>
-      </div>
       <Footer />
     </div>
   );

@@ -144,15 +144,21 @@ a{
   z-index: 0;
 } */
 
-.contact {
-  margin-top: -5px;
-  text-align: center;
-  
-  /* font-family: 'Rubik Moonrocks', cursive; */
-  /* border: 4px double aqua; */
+.foot-text {
+  align-items: center;
+  align-self: center;
 }
 
 .footer{
+  margin: 25px 0;
+  background-color: black;
   text-align: center;
   padding: 8px;
+}
+
+.footer-email{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
 }
