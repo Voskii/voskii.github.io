@@ -5,6 +5,7 @@ import ProjectCard from "./components/ProjectCard";
 import Login from "./components/Login";
 import PokeVid from "./images/pokeapi.mp4";
 import StudyVid from "./images/studdybuddy.mp4";
+import WorldEaterVid from './images/worldeater.mp4'
 import Github from "./images/ghub3.svg";
 import html from './images/html.svg';
 import Fcss from './images/fcss.svg';
@@ -18,6 +19,9 @@ import Footer from './components/Footer'
 export default function App() {
 
   const projects = [
+    {
+      name: 'World Eater', ghub: '', url: 'https://worldeaterbackend.onrender.com/', img: WorldEaterVid, orientation: 'r'
+    },
     {
       name: 'PokéPlanet', ghub: 'https://github.com/Voskii/poke', url: 'https://pokiplanet.netlify.app/', img: PokeVid, orientation: 'l'
     },
