@@ -16,7 +16,6 @@ import Node from './images/node.png'
 import Footer from './components/Footer'
 
 
-
 export default function App() {
 
   const projects = [
